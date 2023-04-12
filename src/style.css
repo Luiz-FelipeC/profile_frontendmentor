@@ -9,9 +9,19 @@
 
 body {
     background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg), 
+    url(images/bg-pattern-bottom.svg);
+    background-position: right 45vw bottom 45vh, 45vw 45vh;
+    background-repeat: no-repeat;
     height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 hr {
@@ -57,8 +67,8 @@ p {
     background-color: #fff;
     border-radius: 10px;
     margin: 20px;
-    width: 330px;
-    height: 350px;
+    width: 350px;
+    height: 400px;
 }
 
 .info-container .top-info {
@@ -68,13 +78,12 @@ p {
     align-items: center;
     gap: 10px;
     height: 100%;
-    background-image: url(bg-pattern-card.svg);
+    width: 100%;
 }
 
 .info-container .top-info img {
     border-radius: 50%;
     margin-top: 20px;
-    background-image: url(/images/bg-pattern-card.svg);
 }
 
 .info-container .botton-info {
