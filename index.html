@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="/src/reset.css">
+  <link rel="stylesheet" href="/src/variables.css">
+  <link rel="stylesheet" href="/src/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Profile card component</title>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+  <main class="container">
+    <div class="info-container">
+      <div class="top-info">
+        <img src="/images/image-victor.jpg">
+        <p>Victor Crest <span class="age">26</span></p>
+        <span class="city">London</span>
+      </div>
+      <hr>
+      <ul class="botton-info">
+        <li>
+          <p class="counter">80K</p>
+          <span class="infos">Followers</span>
+        </li>
 
-  803K
-  Likes
+        <li>
+          <p class="counter">803K</p>
+          <span class="infos">Likes</span>
+        </li>
 
-  1.4K
-  Photos
+        <li>
+          <p class="counter">1.4K</p>
+          <span class="infos">Photos</span>
+        </li>
+      </ul>
+    </div>
+  </main>
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/Luiz-FelipeC">Luiz Felipe Maia de Campos</a>.
   </div>
 </body>
+
 </html>
